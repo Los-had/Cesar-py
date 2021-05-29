@@ -12,7 +12,6 @@ modo = input("1 - Descriptografar\n >  ")
 
 if(modo == '1' or 'd' or 'D' or 'Decrypt' or 'decrypt' or 'Descriptografar' or 'descriptografar'):
     texto = input("Insira o texto para descriptografar \n >  ")
- 
     for i in range (0, len(texto)):
         resultado = resultado + chr(ord(texto[i]) - 3)
 print('')
